@@ -1,11 +1,11 @@
 (ns cbe.arithmetic
    (:use [clojure.test]))
 
-; Sum operator
+; Addition operator
 (is (= 5 (+ 2 3)))
 (is (= 0 (+)))
 
-; Negation and subtraction
+; Negation and subtraction operator
 (is (= -2 (- 2)))
 (is (= 2 (- 4 2)))
 
