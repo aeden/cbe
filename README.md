@@ -11,7 +11,7 @@ Enjoy!
 
 To run a file:
 
-  CLASSPATH=lib/* java clojure.main src/cbe/arithmetic.clj
+    CLASSPATH=lib/* java clojure.main src/cbe/arithmetic.clj
 
 ## License
 
