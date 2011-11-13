@@ -1,6 +1,12 @@
 (ns cbe.test
   (:use [clojure.test]))
 
+;Truth
+(is (= true (boolean 1)))
+(is (= true true))
+(is (not= true false))
+(is (not= true nil))
+
 ;Nil?
 (is (nil? nil))
 (is (not (nil? 1)))
