@@ -78,3 +78,19 @@
 ;Sequence?
 (is (seq? '(1 2 3)))
 (is (not (seq? [1 2 3])))
+
+;Vector?
+(is (vector? [1 2 3]))
+(is (not (vector? '(1 2 3))))
+
+;List?
+(is (list? '(1 2 3)))
+(is (not (list? [1 2 3])))
+
+;Map?
+(is (map? {1 "a" 2 "b"}))
+(is (not (map? '(1 2 3))))
+
+;Set?
+(is (set? #{1 2 3}))
+(is (not (set? '(1 2 3))))
